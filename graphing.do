@@ -179,6 +179,12 @@ sc totx toty, msize(tiny) ///
    caption("Observations: 4984 households in 2009") ///
    xtitle("Total Annual Income") ///
    ytitle("Total Annual Expenditures")
+
+*We can add a fitted line to the scatterplot by adding the command (lfit totx toty)
+
+*We can rescale the axises (especially helpful for the assignment on misleading data)
+*xscale(range(2000 6000)) yscale(range(0 3000)) changes the previous 0 point on the x-axis to 2000
+*and helps us to focus on a certain subset 
    
 * Finally, we may want to change the layout and design of the graph. While it is
 * possible to change colors, fonts, and positions manually, Stata has a powerful
